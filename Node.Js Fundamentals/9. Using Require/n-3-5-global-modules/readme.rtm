@@ -1,0 +1,7 @@
+npm install -g nodemon
+-g : adds the package at global
+
+
+--------------------------------------
+
+go to terminal and type "nodemon <app.js>"

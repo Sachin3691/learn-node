@@ -1,0 +1,22 @@
+Debugging node - CMDLINE
+===============================
+debug> - gets inited
+node inspect <file.js>
+n -  next statement
+c - continue
+
+--- repl  mode: Switches between debug and watch mode.
+> person : shows the person object, like the watch window
+
+get and set values.
+>person.age = 100
+>person.age + 100
+
+Debugging in Chrome
+=================================
+
+node --inspect-brk
+open chrome and type chrome://inspect
+
+
+use debugger; in the code.

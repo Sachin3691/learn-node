@@ -1,0 +1,16 @@
+Command Line Arguments in nodejs.
+----------------------------------------------------------------------------------------
+
+progress.argv -
+[ 'C:\\Program Files\\nodejs\\node.exe',
+  'C:\\Learning\\Node\\Node.Js Fundamentals\\9. Using Require\\n-3-6-getting-input\\app.js',
+  'list' ]
+
+===============================
+progress.argv can be used to get the input from the user as part of the node invocation.
+
+===============================
+use " in windows while passing the arguments
+
+
+>> However - this kind of implementation is hard for code maintainability. Hence Use "Yargs" nmp

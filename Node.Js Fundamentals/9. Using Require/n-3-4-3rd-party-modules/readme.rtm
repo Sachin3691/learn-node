@@ -1,0 +1,18 @@
+Creating a Project
+------------------------
+npm init
+
+
+
+Running already created Project
+---------------------------------
+
+npm install
+or
+npm i
+
+Adding a new package from npm
+------------------------------------
+
+npm install jshint --save
+--save : Updates the Package.Json file about the version to be used in the project and name of the package

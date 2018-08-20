@@ -1,0 +1,5 @@
+JSON
+=============================
+typeof <variable> - give the type.
+
+Navigate to Playground folder and run node json.js
