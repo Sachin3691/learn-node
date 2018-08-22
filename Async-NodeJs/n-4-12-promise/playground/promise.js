@@ -7,8 +7,11 @@ var somePromise = new  Promise((resolve, reject)=> {
 });
 
 somePromise.then((msg) => { // resolve
-    // Works if promise is fullfilled
+    // Works if promise is fullfilled.
+    // when a promise is fullfiled "**THEN**" do some action
     console.log('Success: ', msg);
-}, (errorMsg) => { // reject
+}, (errorMsg) => { 
+    // reaches here, if promise is failed.
+    //when a promise is failed "**THEN**" do some action
     console.log('Error: ', errorMsg);
 })
