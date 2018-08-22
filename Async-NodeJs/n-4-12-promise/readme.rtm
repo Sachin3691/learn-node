@@ -1,0 +1,12 @@
+Introduction to ES 6 Promises
+==============================
+
+    Helps managing Asyncronous applications.
+
+TODO : Callback vs Promises
+
+Basics
+==============
+1. Resolve or Reject only once.
+2. Cannot call both
+3. 
