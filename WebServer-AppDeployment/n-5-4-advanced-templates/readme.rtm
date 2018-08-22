@@ -1,0 +1,11 @@
+Contains
+==================
+> partials - common html code
+> partial helpers
+> Registering partials
+> registering hhelpers - common methods
+
+
+getCurrentYear - no parameter 
+scremIt - with parameter
+Check home.hbs for udated Welcome Msg
