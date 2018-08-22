@@ -1,0 +1,20 @@
+console.log('Starting app');
+
+setTimeout(()=> { ========> Non-blocking IO
+    console.log('Inside Callback');
+}, 2000 );
+
+setTimeout(()=> {  ========> Non-blocking IO : Un-expected as 0 delay. Yet executes after the calls.
+    console.log('Inside Callback with 0 secs');
+}, 0 );
+
+console.log('Finishing up');
+
+
+==========================================
+Output
+=======
+Starting app
+Finishing up
+Inside Callback with 0 secs
+Inside Callback

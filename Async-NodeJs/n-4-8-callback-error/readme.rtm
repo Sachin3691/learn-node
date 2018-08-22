@@ -1,0 +1,11 @@
+encodeURIComponent()
+=================================
+encodeURIComponent('DS Max Silhoutte')
+'DS%20Max%20Silhoutte'
+
+-----------------------------------
+decodeURIComponent()
+=================================
+> decodeURIComponent('DS%20Max%20Silhoutte')
+'DS Max Silhoutte'
+

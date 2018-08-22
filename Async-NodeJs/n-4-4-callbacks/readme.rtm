@@ -1,0 +1,10 @@
+Callback Functions and API's
+=======================================
+
+Callback - is defined as function, that gets passed as an arguments to another function. 
+    And executed after some event.
+
+setTimeout - is a function. 
+console.log - is another function
+2000 -  is an event that runs another function.
+
