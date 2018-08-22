@@ -33,7 +33,9 @@ axios.get(geoCodeURL).then((response) => {
         var weatherURL = `https://api.darksky.net/forecast/493cf1fba51cbf44ce82004ca9ee26dc/${lat},${lng}?units=si`;
 
         axios.get(weatherURL).then((wetherResponse) => {
-            console.log(`It's currently ${wetherResponse.data.currently.temperature}. It feels like ${wetherResponse.data.currently.apparentTemperature}.`)
+            var temperature = wetherResponse.data.currently.temperature;
+            var apparentTemperature = wetherResponse.data.currently.apparentTemperature;
+            console.log(`It's currently ${temperature}. It feels like ${apparentTemperature}.`)
 
         }).catch((e) => {
             console.log(e);
