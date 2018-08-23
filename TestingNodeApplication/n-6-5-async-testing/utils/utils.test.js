@@ -15,7 +15,7 @@ it('should async add two numbers', (done)=> {   // to enable async calls to test
         expect(sum).toBe(7).toBeA('number');
         done(); // tells mocha that test is completed now.
     })
-})
+});
 
  
 it('should square a number', () => {
@@ -24,7 +24,16 @@ it('should square a number', () => {
     //     throw new Error(`Expected 16 but got ${res}`);
     // }
     expect(res).toBe(16).toBeA('number');
-})
+});
+
+it('should async square a numbers', (done)=> {   // to enable async calls to test
+    utils.asyncSquare(4, (res)=> {
+        expect(res).toBe(16).toBeA('number');
+        done(); // tells mocha that test is completed now.
+       // Error: Timeout of 2000ms exceeded. For async tests and hooks, ensure "done()" is called; if           returning a Promise, ensure it resolves.
+    })
+});
+
 
 // Know More
 // it('should expect some value', () => {
