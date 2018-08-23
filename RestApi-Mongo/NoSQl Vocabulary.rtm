@@ -1,0 +1,10 @@
+1. NoSQL is also a Database.
+
+2. IN sql - [Table] strucute
+3. In NoSQL - Array like structure [Collection]
+
+4. In SQL - Records are called as [Row/Record]
+5. In NoSQL - Records are called as [Document]
+
+6. In SQL - records properties are called [Column] (* all records has same columns)
+7. In NoSQL - records properties are called [Fields/Properties] (* not need to have same property)

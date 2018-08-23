@@ -1,0 +1,27 @@
+====================================================================================
+Installing MongoDB
+--------------------------------
+
+
+<> Installation
+--------------------------------
+>> Download and install the MongoDB.
+
+<> Insert data to MongoDB
+---------------------------------
+>> db.Todos.insert({text:'Create new Node course'})
+Output >> WriteResult({ "nInserted" : 1 })
+
+<> Read data from MongoDB
+---------------------------------
+>> db.Todos.find()
+Output >>  { "_id" : ObjectId("5b7e9eb8ac1bd0635b7a901a"), "text" : "Create new Node course" }
+
+=========================================================================================
+> Connect using nodejs
+-----------------------
+
+1. Connect - does not have create the DB 
+
+==========
+> Read and write
