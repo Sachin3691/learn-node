@@ -25,3 +25,14 @@ Output >>  { "_id" : ObjectId("5b7e9eb8ac1bd0635b7a901a"), "text" : "Create new 
 
 ==========
 > Read and write
+
+
+==============================
+ObjectId -  default ID
+-----------
+5b7f9318993c4214a42be13c
+
+4 - Time (Created AT)
+3 - Machine ID 
+2 - Process ID
+3 - Counter 
